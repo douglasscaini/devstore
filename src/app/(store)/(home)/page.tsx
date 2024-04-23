@@ -1,5 +1,6 @@
 import { api } from "@/data/api";
 import { Product } from "@/data/types/product";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,6 +15,10 @@ async function getFeaturedProducts(): Promise<Product[]> {
 
     return products;
 }
+
+export const metadata: Metadata = {
+    title: "home",
+};
 
 export default async function Home() {
     const [highlightedProduct, ...otherProducts] = await getFeaturedProducts();
@@ -54,7 +59,7 @@ export default async function Home() {
                         className="group relative col-span-3 row-span-3 rounded-lg bg-zinc-900 overflow-hidden flex justify-center items-end"
                     >
                         <Image
-                            src="/moletom-ai-side.png"
+                            src={product.image}
                             width={920}
                             height={920}
                             quality={100}
