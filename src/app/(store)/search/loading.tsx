@@ -29,7 +29,7 @@ function Loading() {
 
 export default function SearchLoading() {
     return (
-        <Suspense>
+        <Suspense fallback={null}>
             <Loading />
         </Suspense>
     );
