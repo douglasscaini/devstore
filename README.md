@@ -13,7 +13,7 @@
 
 ## :speech_balloon: Sobre <a name="about"></a>
 
-> ...
+> E-commerce de camisetas :)
 
 <br />
 <table>
@@ -21,7 +21,7 @@
     <td colspan="1">Web App</td>
   </tr>
   <tr>
-    <td><img src="#" width="1000px" /></td></td>
+    <td><img src=".github/home.png" width="1000px" /></td></td>
   </tr>
 </table>
 
@@ -41,10 +41,11 @@ $ npx cypress open
 
 ## :triangular_flag_on_post: Desafio <a name="challenge"></a>
 
-> ...
+> Aprender princípios do Next com App Router.
 
 ## :heavy_check_mark: Tecnologias <a name="technologies"></a>
 
+-   [Cypress](https://www.cypress.io/)
 -   [TypeScript](https://www.typescriptlang.org/)
 -   [TailWind CSS](https://tailwindcss.com/)
 
